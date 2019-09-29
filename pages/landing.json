@@ -1,7 +1,7 @@
 {
     "hero": {
         "greeting": "Welcome !",
-        "introduction": "My name is hugo, I'm a backend developer expert Laravel",
+        "introduction": "My name is Hugo, I'm a backend developer expert Laravel",
         "img_background": "https://lh3.googleusercontent.com/wpU-wbXrEJwGIcqKUrN1LkcSSbs8eAEG4TAMQuDlItBujZmgUftn1F-bl5L9J3YliYnYnSUcZDGg_vYCPW6iIxLy1ac",
         "img_profile": "https://lh3.googleusercontent.com/LE7LZLPqlHN4WcIuWFk4deenKFQYTBXq6E-eS5wenitZEEl0id4I6JoilX-XSptDgPfd5YV3lDgZMqqnqI5Ym1Jo-KQ"
     },
@@ -9,13 +9,19 @@
         "header": "My projects",
         "subheader": "Take a look at my most recent work !"
     },
-    "image_profile": "https://i.ytimg.com/vi/qvXZcqv1C3U/maxresdefault.jpg"  ,
-    "greeting": "Hello ! Welcome to my Portfolio site !",
-    "introduction": "I'm a web development student and a freelancer working on the development of website and webapp. Expert Laravel ",
-    "languages": [
-        {"name": "Laravel", "years": 3},
-        {"name": "Angular", "years": 2},
-        {"name": "NodeJs", "years": 1},
-        {"name": "Wordpress", "years": 2}
-    ]
+    "service": {
+        "subheader": "Here are the services I can offer you :",
+        "services": [
+            {"name": "Backend Developer", "description": "Create e-commerce sites, e-learning platforms or even blog. Or create new fonctionality.", "image": "https://lh3.googleusercontent.com/gZw2gibFTxpbeh3Ib9NDIZomVup18pX27yBJb7PVvLT-ickH9EsbFjcs0VhQQYJ_LT9mUUnJjRarz_CaZDxoRsP7"},
+            {"name": "Frontend Developer", "description":"Integrate web models while using APIs", "image": "https://lh3.googleusercontent.com/uOsmQSUxTHHpkXB2B-MJk5FJK16xSEmmr_8qcbjXpkfg7udbyjYugMTe9Thq7fa3iMQe94TmcxKGKt20Jxk3m3b0ow"},
+            {"name": "Api Development", "description": "Create usable APIs for your web projects. With Laravel or NodeJs.", "image": "https://lh3.googleusercontent.com/wV5ezHwg-P-WEeG1pesrNpNBSDATqnTxr4ZTah_wld3ZXW-DbVmAXeAfq5qlyH6OvuKZttRF0nn2K0aaV8SvcI967Q"},
+            {"name": "Fullstack Developer", "description":"Create Apis for the front end application form scratch", "image": "https://lh3.googleusercontent.com/MJwNNAhQaXFPTjlofNHh8wcL7Aftu4h0yDP5FTrGC5WZsb9iL9vEIn14Tlgh4K_1y3JIuGh13A1zVw7vdnJW23pLtZ0"},
+            {"name": "Web project Manager", "description": "Lead a team in a web project with the most recent working method", "image": "https://lh3.googleusercontent.com/G23HGLZX7yNkzKWDe8oXRjIGgfznxgg-jKNTmtD2L4MMRPrSuI-77FcNJTK3xEyT2AbOfumIysFx-U3A78TxwbJQyw"},
+            {"name": "Web professor", "description": "Teach young developers the basics of web computer programming", "image": "https://lh3.googleusercontent.com/t4qKJLlVGyrQDwvUH6R9fDE9_J3gYgwL7qEoogrCuFLGn2Kkv0XEsj4-_bPXiYJP0JMZ6cuvHueX2M79vEJTjFFfASY"}
+        ]
+    },
+    "contact": {
+        "header": "Let's Collaborate !",
+        "subheader": "If you're interest in working with me, fill out the form below and I will get back to you right away."
+    }
 }
