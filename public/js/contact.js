@@ -18,6 +18,8 @@
         data: visitor,
         success: function(res){
           console.log('SUBSCRIBER CREATED: ' + JSON.stringify(res))
+          successmessage = 'Your message has been succesfully sent';
+          $("#successmessage").text(successmessage);
         },
         error:function(res){
           
