@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <title>The Gallery</title>
-  <meta name="description" content="" />
+  <title>Hugo.L Portfolio</title>
+  <meta name="description" content="Site web portfolio Hugo Lavergne, freelancer développeur web fullstack, Laravel/NodeJS - VueJs/Angular" />
 
   {{>head}}
 </head>
@@ -14,11 +14,11 @@
 
     <section
       style="background:url('{{{page.hero.img_background}}}=s2048');background-size:cover;background-position:center;">
-      <div class="gradient-div py-3" style="height:76vh">
+      <div class="gradient-div py-3" style="height:85vh">
         <div class="container">
           <div class="row justify-content-center header-row">
             <div class="col-12 col-md-8 col-lg-7 text-center text-white">
-              <img src="{{{page.hero.img_profile}}}" alt="" style="width: 170px; height: 170px; border-radius: 50%"
+              <img src="{{{page.hero.img_profile}}}=s200-c" alt="" style="width: 185px; height: 185px; border-radius: 50%"
                 class="mt-5">
               <h1 class="display-3 mt-4">{{page.hero.greeting}}</h1>
               <p class="lead text-white mb-4 mt-1">
@@ -30,7 +30,7 @@
       </div>
     </section>
 
-    <section class="py-5 py-md-7">
+    <section class="py-5 py-md-7" id="project-section">
       <div class="container py-md-5">
         <div class="row block-header">
           <div class="col-sm-8 mx-auto text-center">
@@ -39,9 +39,7 @@
             <p class="lead">{{page.projects.subheader}} </p>
           </div>
         </div>
-
         <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-
           {{#projects}}
           <div class="col-md-4 col-sm-12 mb-2r">
             <a href="/project/{{slug}} ">
@@ -64,7 +62,7 @@
     </section>
 
 
-    <section class="py-md-5 block">
+    <section class="py-md-5 block" id="service-section">
       <div class="container">
         <div class="row block-header">
           <div class="col-sm-8 mx-auto text-center">
@@ -87,7 +85,7 @@
       </div>
     </section>
 
-    <section class="py-md-5 block text-center contact-block">
+    <section class="py-md-5 block text-center contact-block" id="contact-section">
       <div class="container">
         <div class="row block-header">
           <div class="col-sm-8 mx-auto text-center">

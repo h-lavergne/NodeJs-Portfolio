@@ -2,8 +2,8 @@
     "hero": {
         "greeting": "Welcome !",
         "introduction": "My name is Hugo, I'm a backend developer expert Laravel",
-        "img_background": "https://lh3.googleusercontent.com/wpU-wbXrEJwGIcqKUrN1LkcSSbs8eAEG4TAMQuDlItBujZmgUftn1F-bl5L9J3YliYnYnSUcZDGg_vYCPW6iIxLy1ac",
-        "img_profile": "https://lh3.googleusercontent.com/LE7LZLPqlHN4WcIuWFk4deenKFQYTBXq6E-eS5wenitZEEl0id4I6JoilX-XSptDgPfd5YV3lDgZMqqnqI5Ym1Jo-KQ"
+        "img_background": "https://lh3.googleusercontent.com/3LfaZ2FsQHOtZbYwrgytFUW1KCWf5zgr3upPsW-9-ePw8G54f3eqStfpUNcS9ZneIEDX8BzQykOvbbz_gIiXYLdkj54",
+        "img_profile": "https://lh3.googleusercontent.com/7_H_DJ1ZPgW-9tCJVOdG9l2KbXqEKmBllF46KDJlscHkd89MS2AKf-L8SS22pzZBRdcUbzNevrROjeeMqzoghY3m"
     },
     "projects": {
         "header": "My projects",
