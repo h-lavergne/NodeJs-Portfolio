@@ -4,6 +4,9 @@
 <head>
   <title>Hugo.L Portfolio</title>
   <meta name="description" content="Site web portfolio Hugo Lavergne, freelancer développeur web fullstack, Laravel/NodeJS - VueJs/Angular" />
+  <meta property="image" content="https://lh3.googleusercontent.com/jBkRxXfYz1Yp-hPvJI13HrRhdWcb2lVHL13B6-OkxIxLZJbzqkim11VYDS69hM1pAZwmdSoK7VwcCkg2rzRpTnJc3qs" />
+  <meta property="og:image:width" content="260px" />
+  <meta property="og:image:height" content="260px" />
 
   {{>head}}
 </head>
@@ -95,7 +98,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <form class="col-md-4 col-xl-4 mx-auto input-border">
+          <form class="col-md-4 col-xl-6 mx-auto input-border">
             <div class="form-group">
               <input id="contact-form-name" type="text" class="form-control form-control-lg" placeholder="Name">
             </div>
@@ -107,6 +110,7 @@
             </div>
             <button id="contact-submit" class="btn btn-block btn-lg btn-info mb-5 mt-5">Send</button>
             <span id="successmessage"></span>
+            <span id="errormessage"></span>
           </form>
           
         </div>
