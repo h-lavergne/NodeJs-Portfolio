@@ -14,16 +14,8 @@
         $("#successmessage").text("");
         console.log('Check that all the field are filled out')
         const errormessage = "Your message couldn't be sent, please check that all the fields are filled out.";
-        $("#errormessage").text(errormessage);
-        if(visitor.name === "") {
-          $('#contact-form-name').addClass("border border-danger")
-        } else if(visitor.email === "") {
-          $('#contact-form-email').addClass("border border-danger")
-        } else {
-          $('#contact-form-message').addClass("border border-danger")
-        }
-        
-        
+        $("#errormessage").text(errormessage).addClass("text-danger font-weight-bold");
+            
       }
         
       else{
