@@ -1,6 +1,7 @@
 (function () {
   console.log("HELLO");
   $('#contact-submit').click(function (event) {
+
     if (event) {
       event.preventDefault()
 
@@ -36,24 +37,25 @@
       else {
         console.log('Contact form submitted ' + JSON.stringify(visitor));
         $.ajax({
-          url: '/api/subscriber',
+          url: "/send-email",
           type: 'POST',
           data: visitor,
           success: function (res) {
-            $("#errormessage").text("");
-            console.log('SUBSCRIBER CREATED: ' + JSON.stringify(res));
-            $('#contact-form-name').removeClass("border border-danger").val("");
-            $('#contact-form-email').removeClass("border border-danger").val("");
-            $('#contact-form-message').removeClass("border border-danger").val("");
-            const successmessage = 'Your message has been succesfully sent !';
-            $("#successmessage").text(successmessage).addClass("text-success font-weight-bold");
-
+            res.status(201);
+            console.log('yes life')
           },
-          error: function (res) {
-            res.status(400);
+          
+          error: function () {
+            console.log('error')
           }
         })
       }
+      $("#errormessage").text("");
+      $('#contact-form-name').removeClass("border border-danger").val("");
+      $('#contact-form-email').removeClass("border border-danger").val("");
+      $('#contact-form-message').removeClass("border border-danger").val("");
+      const successmessage = 'Your message has been succesfully sent !';
+      $("#successmessage").text(successmessage).addClass("text-success font-weight-bold");
     }
   })
 })()
